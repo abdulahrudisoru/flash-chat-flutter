@@ -6,6 +6,9 @@ buildscript {
 
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.3'
+        // Tambahkan dependency untuk Google services plugin di sini
+        classpath 'com.android.application'
+        classpath 'com.google.gms.google-services'
     }
 }
 
